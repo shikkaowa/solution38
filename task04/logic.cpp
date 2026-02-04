@@ -1,4 +1,21 @@
+
 #include "logic.h"
-int likes(int d, int n, int initialLikes) {
-	return initialLikes + (n * d);
+void fync(int n, int m) {
+
+
+	if (n < m) {
+		// возрастания
+		for (int i = n; i <= m; i++) {
+			cout << i << " ";
+		}
+	}
+	if (n > m) {
+		// убывания
+		for (int i = n; i >= m; i--) {
+			cout << i << " ";
+		}
+	}
+
+	cout << endl;
 }
+

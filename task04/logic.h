@@ -1,4 +1,6 @@
 #pragma once
 #include <iostream>
 using namespace std;
-int likes(int d, int n, int initialLikes);
+void fync(int n, int m); // idk how to name it
+
+

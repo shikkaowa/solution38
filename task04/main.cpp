@@ -1,21 +1,15 @@
 #include "logic.h"
+
+
 int main() {
-	int d;
-	int n;
-	int initialLikes;
+    int n, m;
 
-	cout << "input initial Likes:";
-	cin >> initialLikes;
+    cout << "input N and M (M > N): ";
+    cin >> n >> m;
 
-	cout << "input d:";
-	cin >> d;
 
-	cout << "input n:";
-	cin >> n;
+    cout << "result: " << endl;
+    fync(n, m);
 
-	int fync = likes(d, n, initialLikes);
-
-	cout << "rn post has: " << likes(d, n, initialLikes) << " likes";
-
-	return 0;
+    return 0;
 }

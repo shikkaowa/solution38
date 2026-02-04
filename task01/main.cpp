@@ -1,13 +1,21 @@
-#include "test.h"
-void main() {
-	test01();
-	test02();
-	test03();
-	test04();
-	test05();
-	test06();
-	test07();
-	test08();
-	test09();
-	test10();
+#include "logic.h"
+int main() {
+	int d;
+	int n;
+	int initialLikes;
+
+	cout << "input initial Likes:";
+	cin >> initialLikes;
+
+	cout << "input d:";
+	cin >> d;
+
+	cout << "input n:";
+	cin >> n;
+
+	int fync = likes(d, n, initialLikes);
+
+	cout << "rn post has: " << likes(d, n, initialLikes) << " likes";
+
+	return 0;
 }

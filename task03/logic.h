@@ -1,5 +1,5 @@
 #pragma once
 #include <iostream>
 using namespace std;
-void fync(int n, int m); // idk how to name it
 
+bool is_power_of_two(int number);
